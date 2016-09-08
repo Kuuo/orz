@@ -1,0 +1,68 @@
+body {
+  font-family: "Comic sans MS";
+  text-align: center;
+}
+
+#backtoblog {
+  position: fixed;
+  top: 3%;
+  left: 2%;
+}
+#backtoblog.btn-default {
+  background-color: rgb(100, 189, 133);
+  border-color: rgb(100, 189, 133);
+  color: #FFF;
+  transition: .4s;
+}
+#backtoblog.btn-default:hover {
+  color: rgb(100, 189, 133);
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.bg{
+  background-image: url('http://ocgwwz4eb.bkt.clouddn.com/flowers.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+#title h1 {
+  text-shadow: 0 0 5px #888, 0 0 20px #333;
+  color: #FFF;
+  margin: 8% auto 8%;
+}
+
+
+.container .jumbotron {
+  padding: 40px 15px;
+  background-color: rgba(255, 255, 255, .1);
+  /*background-color: transparent;*/
+}
+
+.row {
+  margin: 15px auto;
+  width: 90%;
+}
+
+.col-sm-3 {
+  padding: 5px;
+}
+
+.col-sm-3 a {
+  font-size: 18px;
+  transition: .4s;
+  line-height: 800%;
+  border-radius: 0;
+  width: 100%;
+}
+
+.col-sm-3 a:hover {
+  background-color: #333;
+}
+
