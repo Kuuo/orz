@@ -74,3 +74,8 @@ li {
   background-color: rgba(48, 48, 48, .3);
   color: #FFF;
 }
+
+.entryIcon {
+  width: 64px;
+  height: 64px;
+}
