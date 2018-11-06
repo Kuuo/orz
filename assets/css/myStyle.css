@@ -12,27 +12,29 @@ li {
   top: 3%;
   left: 2%;
 }
+
 #backtoblog.btn-default {
   background-color: rgba(80, 80, 80, .3);
   border: none;
   color: #EEE;
   transition: .4s;
 }
+
 #backtoblog.btn-default:hover {
   color: #FFF;
   background-color: rgba(99, 200, 185, .3);
 }
 
-.bg{
+.bg {
   background-image:
--webkit-linear-gradient(150deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url('http://ocgwwz4eb.bkt.clouddn.com/wallhaven-10121.jpg');
+    -webkit-linear-gradient(150deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+    url('https://kblog-1253476926.cos.ap-shanghai.myqcloud.com/wallhaven-10121.jpg');
   background-image:
--o-linear-gradient(150deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url('http://ocgwwz4eb.bkt.clouddn.com/wallhaven-10121.jpg');
+    -o-linear-gradient(150deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+    url('https://kblog-1253476926.cos.ap-shanghai.myqcloud.com/wallhaven-10121.jpg');
   background-image:
-linear-gradient(240deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url('http://ocgwwz4eb.bkt.clouddn.com/wallhaven-10121.jpg');
+    linear-gradient(240deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+    url('https://kblog-1253476926.cos.ap-shanghai.myqcloud.com/wallhaven-10121.jpg');
   background-size: cover;
   width: 100%;
   height: 100%;
